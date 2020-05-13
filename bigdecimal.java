@@ -1,6 +1,6 @@
 // BIG DECIMAL CLASS IS VERY USE FULL FOR CALCULATING ULTRA PRECISSION VALUES
 // Problem may increase further but to get exact or expected value we can pass no. as strings
-
+// use add() function to add bigdecimal
 import java.math.BigDecimal;
 public class bigdecimal 
 {
