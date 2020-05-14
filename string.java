@@ -1,6 +1,6 @@
 //STRING IS BASICALLY A SEQUENCE OF CHARACTERS
 //always write string in double quotes
-
+// variable name is case sensitive
 
 public class string 
 {
