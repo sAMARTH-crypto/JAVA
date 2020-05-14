@@ -36,7 +36,7 @@ public class typecast
 		System.out.println(var1);
 		
 		//EXPLICIT
-		/*Main drawback of explicit typecasting deciamals values is loss of precision that is 
+		/*Main drawback of explicit typecasting OF deciamals values is loss of precision that is 
      some decimal value will automatically be truncated by the compiler
     */
     
