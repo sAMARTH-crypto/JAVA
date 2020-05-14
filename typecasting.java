@@ -43,6 +43,18 @@ public class typecast
 		double var2 = 20.0123456d;
 		float var3 = (float)var2;
 		System.out.println(var3);
+		
+		//Typecasting integer to float
+		
+		long l = 10l;
+		float f = l;
+		System.out.println(f);
+		
+		//typecasting float to integer explicitly 
+		
+		float f1 = 10.54321f;
+		long l1 = (long)f1;
+		System.out.println(l1);  // values after decimal are truncated loss in precision
 	}
 
 }
