@@ -7,11 +7,12 @@ public class string
 	public static void main(String[] args)
 	{
 		int var1 = 10;       
-		//String var2 = "20";     //integer value will be typecasted as string
+		String var2 = "20";			//integer value will be typecasted as string
+		System.out.println(var1+var2);		//string concatenation
 		
 		String var0 = new String("hello");      //proper way to write a string
 		
-		//System.out.println(var1+var2); //string concatenation
+		System.out.println(var0); 
 	
 	}
 
