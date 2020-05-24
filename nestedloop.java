@@ -31,7 +31,7 @@ public class nestedloop
 			}	    
 				for (int j = 0 ; j<=i ; j++ ) //inner loop for no. of columns
 					{
-						System.out.print("* ");
+						System.out.print("* "); //make use of print not println
 					}
 				    System.out.println(); //end line after each row
 				
