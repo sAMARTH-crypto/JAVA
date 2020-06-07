@@ -8,32 +8,24 @@ public class methods
 {
 		public static void main (String[] args)
 		{
-			loop1();
+			loop(1,10);					// we can call in methods as many time we want to
 			
 			System.out.println("____________________________");
 			
-			loop2();
+			loop(20,30);
 			
 		}
 		
-		public static void loop1()      //method one
+		public static void loop(int step , int finalValue)      //method 
 		{
-			int i = 1 ;
-			while (i<=10)
+			
+			while (step<=finalValue)
 			{
-				System.out.println(i);
-				i++;
+				System.out.println(step);
+				step++;
 			}
 		}
 		
-		public static void loop2()    //method two
-		{
-			int j = 20 ;
-			while (j<=30)
-			{
-				System.out.println(j);
-				j++;
-			}
 		}
 
 
